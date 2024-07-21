@@ -1,0 +1,12 @@
+file_format: "1"
+id: alicee
+name: Alicee
+type: shield
+url: https://github.com/trap98/alice-zmk
+requires: [pro_micro]
+features:
+  - keys
+  - encoder
+siblings:
+  - alicee_left
+  - alicee_right

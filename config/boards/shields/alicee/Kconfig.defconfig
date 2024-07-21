@@ -1,0 +1,15 @@
+if SHIELD_ALICEE_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Alicee"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+endif
+
+if SHIELD_ALICEE_LEFT || SHIELD_ALICEE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
