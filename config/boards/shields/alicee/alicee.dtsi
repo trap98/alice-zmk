@@ -28,13 +28,13 @@
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <30>;
+        steps = <10>;
         status = "disabled";
     };
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&encoder_left>;
-        triggers-per-rotation = <80>;
+        triggers-per-rotation = <20>;
     };
 };
